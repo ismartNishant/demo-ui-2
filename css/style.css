@@ -30,9 +30,19 @@ body {
   background-color: rgb(255, 255, 255);
 }
 .center-section,
+.end-section,
 .left-section{
   height: 100vh;
   position: relative;
   overflow-y: scroll !important; 
   object-fit: cover;
+}
+.version-user img{
+  text-align: center;
+  object-fit: cover;
+  width: 2.5rem;
+  height:2.5rem;
+}
+.version-user p{
+  font-size: .8rem;
 }
